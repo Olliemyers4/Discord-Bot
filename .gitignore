@@ -1,0 +1,12 @@
+
+config.json
+
+Voice.mp3
+
+*.pcm
+
+*.wav
+
+*.mp3
+
+node_modules/
