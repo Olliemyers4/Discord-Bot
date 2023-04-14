@@ -45,8 +45,7 @@ async function stopTranscribing(interaction){
     const connection =  getVoiceConnection(interaction.guild.id);
     const receiver = connection.receiver;
     receiver.speaking.removeAllListeners();
-    connection.destroy();
-    interaction.editReply({content: 'Started Transcribing', ephemeral: true});
+    interaction.editReply({content: 'Stopped Transcribing', ephemeral: true});
 
 }
 
