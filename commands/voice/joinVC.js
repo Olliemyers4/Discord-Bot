@@ -25,7 +25,9 @@ module.exports = {
                 channelId: channel,
                 guildId: guild.id,
                 adapterCreator: guild.voiceAdapterCreator,
+                selfDeaf: false,
             });
+            
 
             await interaction.reply({content:'Joined VC!' ,ephemeral: true });
         }catch(err){
