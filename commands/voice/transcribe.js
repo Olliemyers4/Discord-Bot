@@ -35,7 +35,7 @@ async function startTranscribing(interaction){
     const connection =  getVoiceConnection(interaction.guild.id);
     const receiver = connection.receiver;
     receiver.speaking.on('start', onStart);
-    receiver.speaking.on('stop', onStop);
+    receiver.speaking.on('end', onStop);
     interaction.editReply({content: 'Started Transcribing', ephemeral: true});
 
 }
