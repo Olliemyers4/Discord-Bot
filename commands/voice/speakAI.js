@@ -58,7 +58,7 @@ module.exports = {
 
 async function callOpenAI(message,id){
 	console.log(message)
-	const fails = 0;
+	var fails = 0;
 	while (fails < 5){
 		try{
 			messages.push({"role": "user", "content": id + ":" + message})

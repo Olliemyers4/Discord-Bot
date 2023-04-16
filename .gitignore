@@ -2,3 +2,9 @@
 config.json
 
 Voice.mp3
+
+*.pcm
+
+*.wav
+
+*.mp3

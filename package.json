@@ -9,10 +9,17 @@
   "author": "olliemyers4",
   "license": "ISC",
   "dependencies": {
+    "@discordjs/opus": "^0.5.3",
     "@discordjs/voice": "^0.16.0",
+    "audiobuffer-to-wav": "^1.0.0",
     "discord.js": "^14.9.0",
+    "ffmpeg": "^0.0.4",
     "gtts": "^0.2.1",
     "libsodium-wrappers": "^0.7.11",
-    "openai": "^3.2.1"
+    "node-crc": "^2.0.13",
+    "openai": "^3.2.1",
+    "prism-media": "^2.0.0-alpha.0",
+    "wav": "^1.0.2",
+    "wav-converter": "^1.0.0"
   }
 }
