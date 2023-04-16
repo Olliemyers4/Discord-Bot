@@ -76,6 +76,6 @@ async function callOpenAI(message,id){
 			fails += 1
 		}
 	}
-	return "I'm sorry, I'm having trouble thinking right now (U fucked the bot up)"
+	return "I'm sorry, I'm having trouble thinking right now :("
 
 }
