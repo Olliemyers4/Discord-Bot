@@ -43,3 +43,5 @@ This discord bot written in JS as a hobby project to try and integrate OpenAI's 
 ## Known Issue With Installing
 Some users may encounter an error where `@discordjs/opus` can't be found.
 To fix this just run `npm install discordjs/opus`
+
+(Only tried this on Windows and Windows Server)
