@@ -26,12 +26,15 @@ This discord bot written in JS as a hobby project to try and integrate OpenAI's 
 `config.json` should look like the following:
 ```json
 {
+
 	"token": "INSERT_DISCORD_BOT_TOKEN",
     "clientId": "INSERT_DISCORD_BOT_CLIENT_ID",
     "developerUserId" : "USER_ID_OF_DEVELOPER_USER",
     "aiOrg": "OPEN_AI_ORG_TOKEN",
     "aiKey": "OPEN_AI_API_KEY"
+
 }
 ```
 - Once this is done, you can run `npm install` to install the requiste packages
+- In order for slash commands to be recognised used in discord, they first have to be registerd: Running `node deploy-commands.js` will register the commands for all guilds.
 - `node .` runs the bot
