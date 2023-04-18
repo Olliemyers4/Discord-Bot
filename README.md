@@ -38,3 +38,8 @@ This discord bot written in JS as a hobby project to try and integrate OpenAI's 
 - Once this is done, you can run `npm install` to install the requiste packages
 - In order for slash commands to be recognised used in discord, they first have to be registerd: Running `node deploy-commands.js` will register the commands for all guilds.
 - `node .` runs the bot
+
+
+## Known Issue With Installing
+Some users may encounter an error where `@discordjs/opus` can't be found.
+To fix this just run `npm install discordjs/opus`
